@@ -1,0 +1,43 @@
+:root {
+  /* Fonts */
+  --font-medium: "Montserrat", Arial, sans-serif;
+  --font-logo: "Anta", Arial, sans-serif;
+
+  /* Theme */
+  --body-bg: rgb(23, 11, 34);
+  --surface-bg: rgb(30, 16, 41);
+
+  --text-color: rgb(255, 255, 255);
+  --text-secondary: rgb(223, 198, 255);
+
+  /* Accent */
+  --accent: rgb(200, 132, 255);
+  --accent-soft: rgba(200, 132, 255, 0.15);
+
+  /* Borders & Shadows */
+  --border-color: rgb(133, 110, 163);
+  --shadow: rgba(188, 130, 255, 0.26);
+
+  /* Icons */
+  --svg-fill: rgb(227, 227, 227);
+}
+
+body.lightTheme {
+  /* Theme */
+  --body-bg: whitesmoke;
+  --surface-bg: rgb(255, 255, 255);
+
+  --text-secondary: rgb(35, 35, 35);
+  --text-color: rgb(65, 65, 65);
+
+  /* Accent */
+  --accent: rgb(139, 92, 246);
+  --accent-soft: rgba(139, 92, 246, 0.12);
+
+  /* Borders & Shadows */
+  --border-color: rgb(112, 75, 196);
+  --shadow: rgba(15, 2, 44, 0.34);
+
+  /* Icons */
+  --svg-fill: rgb(75, 75, 75);
+}

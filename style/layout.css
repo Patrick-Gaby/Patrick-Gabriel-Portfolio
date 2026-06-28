@@ -1,0 +1,42 @@
+/* 500px */
+@media (max-width: 700px) {
+  #sideNavigationContentWrapper {
+    width: min(20rem, 90vw);
+  }
+
+  .toggleBarBorder {
+    transform: translateX(1rem);
+    display: none;
+  }
+  .toggleTransitionAction .toggleBar {
+    transition: ease-in-out 0.1s;
+    display: none;
+  }
+
+  .navLinks {
+    font-size: 1.25rem;
+    padding: 1rem;
+  }
+
+  .navIcon {
+    width: 30px;
+    height: 30px;
+  }
+
+  #darkModeWrapper {
+    width: min(17rem, 80%);
+  }
+
+  .connectLinks {
+    gap: 2.25rem;
+  }
+
+  .linkButtons {
+    width: 2.3rem;
+    height: 2.3rem;
+    cursor: pointer;
+    transition:
+      background-color ease-in-out 0.3s,
+      opacity ease-in-out 0.8s;
+  }
+}

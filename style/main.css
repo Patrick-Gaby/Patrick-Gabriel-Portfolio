@@ -1,0 +1,28 @@
+@import url(fonts.css);
+@import url(variables.css);
+@import url(layout.css);
+@import url(contents.css);
+@import url(navBar.css);
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-medium);
+  background-color: var(--body-bg);
+  color: var(--text-color);
+  text-align: center;
+}
+
+.navLinks,
+#darkModeWrapper {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
