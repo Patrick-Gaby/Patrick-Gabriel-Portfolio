@@ -3,7 +3,6 @@
 @import url(layout.css);
 @import url(contents.css);
 @import url(navBar.css);
-
 *,
 *::before,
 *::after {
@@ -11,14 +10,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: var(--font-medium);
   background-color: var(--body-bg);
-  color: var(--text-color);
   text-align: center;
 }
-
 .navLinks,
 #darkModeWrapper {
   transition:
