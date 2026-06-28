@@ -1,0 +1,11 @@
+/* 500px */
+@media (max-width: 700px) {
+  .toggleBarBorder {
+    transform: translateX(1rem);
+    display: none;
+  }
+  .toggleTransitionAction .toggleBar {
+    transition: ease-in-out 0.1s;
+    display: none;
+  }
+}
